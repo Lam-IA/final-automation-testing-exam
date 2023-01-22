@@ -153,16 +153,6 @@ public class HomePage extends CommonAPI {
     public void clickAboutUs() {
         aboutUs.click();
     }
-//////////////////////////////////////////////////////////////////////////////
-
-    @FindBy(linkText = "MacBook Pro")
-    WebElement MacBookPro;
-
-
-    public void addMacBookProToCard() {
-
-        MacBookPro.isDisplayed();
-    }
 
 
 
