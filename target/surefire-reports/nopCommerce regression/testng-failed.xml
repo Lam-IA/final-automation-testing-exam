@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopCommerce regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="osVersion" value="11"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="envName" value="browserstack"/>
+  <parameter name="browserVersion" value="108"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="url" value="https://www.demoblaze.com/"/>
+  <test thread-count="5" name="home page(failed)" verbose="0">
+    <classes>
+      <class name="org.QawayFinal.TestLogo">
+        <methods>
+          <include name="logoDemo"/>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+          <include name="setUp"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- org.QawayFinal.TestLogo -->
+    </classes>
+  </test> <!-- home page(failed) -->
+</suite> <!-- Failed suite [nopCommerce regression] -->

@@ -1,0 +1,11 @@
+org\QawayFinal\Pages\SignUpPage.class
+org\QawayFinal\Pages\LoginPage.class
+org\QawayFinal\Utility\ConnectDB.class
+org\QawayFinal\Base\CommonAPI.class
+org\QawayFinal\Utility\Utility.class
+org\QawayFinal\Utility\ExcelReader.class
+org\QawayFinal\Reporting\ExtentManager.class
+org\QawayFinal\Pages\CartPage.class
+org\QawayFinal\Pages\HomePage.class
+org\QawayFinal\Reporting\ExtentTestManager.class
+org\QawayFinal\Reporting\TestLogger.class
